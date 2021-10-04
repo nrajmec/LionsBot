@@ -5,16 +5,22 @@
 3. Before proceeding go to "Authorization" tab and use below login-password	
 	a. admin-admin
 	b. user-admin
+	
+PUT => /changepassword/{customer_id}
+	1. admin - no access
+	2. user - Success
+	
+	http://localhost:9091/customers/changepassword/1
 
 GET => /customers 
 	1. admin - Success
-	2. user - not visible
+	2. user - no access
 	
 	http://localhost:9091/customers
 	
 GET => /orders
 	1. admin - Success
-	2. user - not visible
+	2. user - no access
 	
 	http://localhost:9091/orders
 	
@@ -39,7 +45,7 @@ POSTMAN instructions:
 	
 POST => /customers
 	1. admin - Success
-	2. user - not visible
+	2. user - no access
 	
 	http://localhost:9091/customers
 	{
@@ -63,13 +69,13 @@ POST => /orders
 	
 DELETE => /customers
 	1. admin - Success
-	2. user - Not visible
+	2. user - no access
 	
 	http://localhost:9091/customers/7
 	
 DELETE => /orders
 	1. admin - Success
-	2. user - Not visible
+	2. user - no access
 
 	http://localhost:9091/orders/delete/2
 
