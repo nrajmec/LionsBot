@@ -2,10 +2,9 @@
 
 1. Open POSTMAN online or dektop application
 2. Follow below commands to see the desired output
-3. Before proceeding go to "Authorization" tab and use below login and password	
-	a. 
-
-
+3. Before proceeding go to "Authorization" tab and use below login-password	
+	a. admin-admin
+	b. user-admin
 
 GET => /customers 
 	1. admin - Success
